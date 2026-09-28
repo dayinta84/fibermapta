@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>SIPORT Icon Editable</title>
+  <desc>Editable vector icon for SIPORT</desc>
+
+  <defs>
+    <linearGradient id="pinGradient" x1="190" y1="90" x2="720" y2="690" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="52%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="cyanGradient" x1="160" y1="640" x2="740" y2="730" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background by default -->
+
+  <g id="SIPORT_ICON">
+    <path id="Map_Pin" d="M450 75C290 75 160 205 160 365C160 575 450 735 450 735C450 735 740 575 740 365C740 205 610 75 450 75Z" fill="url(#pinGradient)"/>
+
+    <path id="Pin_Highlight" d="M570 115C650 155 700 240 700 350C700 425 675 485 635 540C690 350 625 205 480 120C510 110 540 108 570 115Z" fill="#67E8F9" opacity="0.38"/>
+
+    <g id="Network_Node" fill="#FFFFFF">
+      <circle id="Node_Center" cx="450" cy="385" r="52"/>
+      <circle id="Node_Top" cx="450" cy="250" r="41"/>
+      <circle id="Port_Left" cx="315" cy="415" r="39"/>
+      <circle id="Port_Right" cx="585" cy="415" r="39"/>
+      <circle id="Port_Bottom_Left" cx="385" cy="525" r="30"/>
+      <circle id="Port_Bottom_Right" cx="515" cy="525" r="30"/>
+      <rect id="Line_Top" x="437" y="288" width="26" height="78" rx="13"/>
+      <path id="Line_Left" d="M408 398L340 412" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round"/>
+      <path id="Line_Right" d="M492 398L560 412" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round"/>
+      <path id="Line_Bottom_Left" d="M422 430L387 500" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round"/>
+      <path id="Line_Bottom_Right" d="M478 430L513 500" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round"/>
+    </g>
+
+    <g id="Fiber_Wave" stroke-linecap="round">
+      <path d="M165 710C250 650 335 765 420 705C505 645 590 765 675 705C725 670 770 672 805 690" stroke="url(#cyanGradient)" stroke-width="28"/>
+      <path d="M195 760C270 710 340 795 420 745C500 695 585 795 675 745C720 720 755 720 790 735" stroke="#2563EB" stroke-width="18" opacity="0.55"/>
+    </g>
+  </g>
+</svg>
